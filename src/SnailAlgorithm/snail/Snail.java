@@ -29,7 +29,7 @@ public class Snail {
 
         // [6, 7, 8, 9]
 
-        for (int r = 1; r < 4; r++) {
+        for (int r = 1; r <= 4; r++) {
             snail[r][4] = numbers[p];
             p++;
         }
